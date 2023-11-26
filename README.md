@@ -42,6 +42,6 @@ This repository is structured to cover a 180-day journey. Each day, I will be co
 - Error Handling and Exceptions
 
 ## Contact
-If you have any questions, suggestions, or just want to connect, feel free to reach out to me [here](mailto:your-email@example.com).
+If you have any questions, suggestions, or just want to connect, feel free to reach out to me [here](mailto:architkushmail1@gmail.com).
 
 Happy coding! 🚀
