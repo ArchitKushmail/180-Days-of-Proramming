@@ -8,6 +8,8 @@ using namespace std ;
     5. Constructor is implicitly invoked when an object is created.
     6. Constructor is used to solve the problem of initilization.
 */
+// If user don't make any Constructor then default constructor is formed by the compiler. 
+// When we make more than one constructor in our class then this is known as Constructor overloading.
 class Complex{
     private: // Access Modifier
     int a,b;
@@ -25,10 +27,10 @@ class Complex{
         a = x;
         b = y;
     }
-    Complex(int k){
+    Complex(int k){ // Parametrized Constructor.
         a = k;
     }
-    Complex(){
+    Complex(){ // Default Constructor
         a = 0;
         b = 0;
     }
