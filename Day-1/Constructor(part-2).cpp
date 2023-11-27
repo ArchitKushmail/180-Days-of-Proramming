@@ -10,23 +10,31 @@ using namespace std ;
 */
 class Complex{
     private: // Access Modifier
-    int x,y;
+    int a,b;
     
     public:
-    void set_data(int a , int b){
-        x = a;
-        y = b;
+    void set_data(int i , int j){
+        a = i;
+        b = j;
     }
     void show_data(){
-        cout<<"The value of x is: "<<x<<endl;
-        cout<<"The Value of y is: "<<y<<endl;
+        cout<<"The value of a is: "<<a<<endl;
+        cout<<"The Value of b is: "<<b<<endl;
     }
-
+    Complex(int x , int y){ // Parametrized constructor.
+        a = x;
+        b = y;
+    }
+    Complex(int k){
+        a = k;
+    }
     Complex(){
-        cout<<"Hello Constructor"<<endl;
+        a = 0;
+        b = 0;
     }
 };
 int main(){
-    Complex c1,c2,c3; // By creating three object constructor will run 3 times.
+    Complex c1(3,4);
+    Complex c2 = Complex(5),c3; // By creating three object constructor will run 3 times.
     return 0;
 }
