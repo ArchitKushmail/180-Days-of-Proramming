@@ -45,9 +45,9 @@ int main()
 Complex c1 , c2, c3;
 c1.set_data(3,4);
 c2.set_data(5,6);
-c3 = c1+c2; // or c3 = c1.operator+(c2);
+c3 = c1+c2; // or c3 = c1.operator+(c2); // In binary operator the left object is the caller object.
 c3.show_data();
-c2 = -c1; // or c2 = c1.operator -();
+c2 = -c1; // or c2 = c1.operator -();  
 c2.show_data();
 return 0;
 }
