@@ -6,7 +6,9 @@ using namespace std ;
 
 void reversestack(stack<int>&st){
     // Base case
-
+    if(st.empty()){
+        return;
+    }
 
     int target = st.top();
     st.pop();
